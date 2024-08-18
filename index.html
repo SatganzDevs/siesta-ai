@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <!-- Coding By CodingNepal - www.codingnepalweb.com -->
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siesta Chatbot</title>
   <link rel="icon" href="favicon.png" type="image/png">
 
-  <!-- Linking Google Fonts For Icons -->
+  <!-- Menautkan Google Fonts Untuk Ikon -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="style.css">
-  <!-- Open Graph meta tags for sharing -->
-  <meta property="og:title" content="Siesta Chatbot - Your AI Companion">
-  <meta property="og:description" content="Chat with Siesta, your friendly AI bot created by SatzzDev. Ask anything and get answers with a casual, friendly tone.">
+
+  <!-- Open Graph meta tags untuk dibagikan -->
+  <meta property="og:title" content="Siesta Chatbot - Teman AI Anda">
+  <meta property="og:description" content="Ngobrol dengan Siesta, bot AI ramah yang dibuat oleh SatzzDev. Tanyakan apa saja dan dapatkan jawaban dengan nada santai dan akrab.">
   <meta property="og:image" content="https://telegra.ph/file/28bb2816831c9b0962068.jpg">
   <meta property="og:url" content="https://siesta-ai.satganzdevs.tech">
   <meta property="og:type" content="website">
 </head>
 <body>
   <header class="header">
-    <!-- Header Greetings -->
-    <h1 class="title">Hello, there</h1>
-    <p class="subtitle">How can I help you today?</p>
+    <!-- Salam Pembuka -->
+    <h1 class="title">Halo, selamat datang</h1>
+    <p class="subtitle">Apa yang bisa saya bantu hari ini?</p>
 
-    <!-- Suggestion list -->
+    <!-- Daftar Saran -->
     <ul class="suggestion-list">
       <li class="suggestion">
-        <h4 class="text">Help me plan a game night with my 5 best friends for under $100.</h4>
+        <h4 class="text">Bantu saya merencanakan malam bermain dengan 5 teman terbaik saya dengan budget di bawah Rp1.500.000.</h4>
         <span class="icon material-symbols-rounded">draw</span>
       </li>
       <li class="suggestion">
-        <h4 class="text">What are the best tips to improve my public speaking skills?</h4>
+        <h4 class="text">Apa tips terbaik untuk meningkatkan keterampilan berbicara di depan umum?</h4>
         <span class="icon material-symbols-rounded">lightbulb</span>
       </li>
       <li class="suggestion">
-        <h4 class="text">Can you help me find the latest news on web development?</h4>
+        <h4 class="text">Bisakah kamu membantu saya menemukan berita terbaru tentang pengembangan web?</h4>
         <span class="icon material-symbols-rounded">explore</span>
       </li>
       <li class="suggestion">
-        <h4 class="text">Write JavaScript code to sum all elements in an array.</h4>
+        <h4 class="text">Tulis kode JavaScript untuk menjumlahkan semua elemen dalam sebuah array.</h4>
         <span class="icon material-symbols-rounded">code</span>
       </li>
     </ul>
   </header>
 
-  <!-- Chat List / Container -->
+  <!-- Daftar Chat / Container -->
   <div class="chat-list"></div>
 
-  <!-- Typing Area -->
+  <!-- Area Pengetikan -->
   <div class="typing-area">
     <form action="#" class="typing-form">
       <div class="input-wrapper">
-        <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
+        <input type="text" placeholder="Masukkan pesan di sini" class="typing-input" required />
         <button id="send-message-button" class="icon material-symbols-rounded">send</button>
       </div>
       <div class="action-buttons">
@@ -60,7 +61,7 @@
       </div>
     </form>
     <p class="disclaimer-text">
-      Siesta may display inaccurate info, including about people, so double-check its responses.
+      Siesta mungkin menampilkan informasi yang tidak akurat, termasuk tentang orang, jadi pastikan untuk memeriksa ulang jawabannya.
     </p>
   </div>
 
